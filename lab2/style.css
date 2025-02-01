@@ -1,0 +1,203 @@
+.container{
+    max-width:1470px;
+    margin: 0 auto;
+}
+.header {
+    max-width: 1240px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px !important;
+    max-height: 54px;
+
+}
+.header_left {
+    display:flex;
+}
+.header_logo {
+    max-width: 108px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_logo img{
+    width: 100%;
+}
+.header_list {
+    display:flex;
+    padding-left: 25px;
+}
+.header_item {
+    list-style: none;
+    color:#262626;
+    margin-left:18px;
+}
+.header_item:first-child{
+    margin-left:0;
+}
+.header_right {
+    display:flex;
+    align-items: center;
+}
+.header_products {
+    display:flex;
+    align-items: center;
+}
+.fa {
+}
+.fa-solid {
+}
+.fa-chevron-down {
+}
+.header_search {
+}
+.fa-magnifying-glass {
+}
+.header_person {
+}
+.fa-user {
+}
+.content{
+    display: flex;
+    border-bottom: 64px;
+}
+.content img{
+    width: 100%;
+    display:block;
+}
+.content_info{
+    position:absolute;
+    max-width: 455px;
+}
+.content_head{
+    width: 100%;
+    padding-top: 48px;
+    padding-left: 48px;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content_text{
+    width:100%;
+    padding-left:48px;
+    font-family: "Segoe UI",  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content_button{
+    margin-left:48px;
+    margin-top:20px;
+    max-width:154px;
+    width:100%;
+    padding: 10px 12px 10px 12px;
+    border: 2px solid transparent;
+    background-color:#0067b8;
+    color:white;
+    cursor: pointer;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.icon{
+    color:#262626;
+    margin-left:16px;
+}
+.icon:first-child{
+    margin-left:0;
+}
+
+
+.block-2 {
+    padding: 20px;
+}
+
+section.block-2 a {
+    background-color: white;
+}
+
+.block-2 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2px; 
+}
+
+.block-2 .card {
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.block-2 .card a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-decoration: none; 
+    color: #0067b8;
+    text-decoration: underline; 
+}
+
+.block-2 .card img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.block-2 .card span {
+    font-size: 14px;
+}
+
+
+.block-3 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block-3 .card {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    background-color: #ffb900;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.block-3 .content {
+    position: relative;
+    padding: 16px 24px;
+    padding-top: 45px;
+    flex-grow: 1;
+}
+
+.block-3 .content h3 {
+    font-size: 29px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.block-3 .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.block-3 a {
+    margin-left: 24px;
+    margin-bottom: 25px;
+}

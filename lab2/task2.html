@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram Login Page</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: white;
+            }
+            .container {
+                display:flex;
+                flex-direction: column;
+                height: 100vh;
+                align-items: center;
+                max-width: 935px;
+                margin: 0 auto;
+            }
+            .content {
+                flex: 1 1 auto;
+            }
+            .content_inner {
+                margin-top: 32px;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+            .content_img {
+                max-width: 500px;
+                margin: 0px 32px 12px 0px;
+            }
+            .content_img img {
+                width:100%;
+            }
+            .content_form {
+                padding:45px 45px 0px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+            .left-part {
+            }
+            .left-part_form {
+                /* border: 1px solid rgb(54, 54, 54); */
+                width: 320px;
+                padding: 20px;
+                background-color: white;
+                border: 1px solid #dbdbdb;
+                border-radius: 5px;
+                text-align: center;
+            }
+            
+            .left-part_logo img {
+                width: 175px;
+                margin: 20px 0;
+            }
+            .left-part_content {
+            }
+            .form {
+            }
+            .form-item {
+                min-width: 250px;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                margin-bottom: 10px;
+            }
+            .form_input {
+                width: 90%;
+                padding: 10px;
+                border: 1px solid #dbdbdb;
+                border-radius: 3px;
+                background-color: #fafafa;
+
+            }
+            .form_btn .btn{
+                width: 100%;
+                background-color: #3897f0;
+                color: white;
+                border: none;
+                padding: 10px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+            
+            .left-part_or {
+                margin-top: 10px;
+            }
+            .left-part_other_actions {
+            }
+            .left-part_facebook {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                color: #3897f0;
+                font-weight: bold;
+                margin: 10px 0;
+                
+            }
+            .left-part_facebook-text {
+            }
+            .left-part_forgot_pass {
+                
+            }
+            .forgot_pass {
+                color:black;
+            }
+            .left-part_account {
+                border: 1px solid #dbdbdb;
+                width: 360px;
+                text-align: center;
+                border-radius: 3px;
+                margin-top: 10px;
+            }
+            
+            .app_text{
+                text-align: center;
+            }
+            .left-part_app img {
+                width: 135px;
+                margin: 5px;
+            }
+            .sign_up{
+                color:#3897f0;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="content_inner">
+                    <div class="content_img">
+                        <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW" alt="phone-img">
+                    </div>
+                    <div class="content_form left-part">
+                        <div class="left-part_form">
+                            <div class="left-part_logo">
+                                <img src="/Users/macbook/Documents/Web-Dev/lab2/assests/instlogo.png" alt="instagram-logo">
+                            </div>
+                            <form action="#" class="left-part_content form">
+                                <div class="form-item">
+                                    <input type="email" class="form_input" placeholder="Email or phone number">
+                                    <input type="password" class="form_input" placeholder="Password">
+                                </div>
+                                <div class="form_btn">
+                                    <button class="btn">Log in</button>
+                                </div>
+                            </form>
+                            <div class="left-part_or">OR</div>
+                            
+                            <div class="left-part_other_actions">
+                                <div class="left-part_facebook">
+                                    <img src="/Users/macbook/Documents/Web-Dev/lab2/assests/FacebookLogo.png" alt="facebook-logo" width="20px">
+                                    <p class="left-part_facebook-text">Log in with Facebook</p>
+                                </div>
+                                <div class="left-part_forgot_pass">
+                                    <a href="#" class="forgot_pass">Forgotten your password?</a>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <div class="left-part_account">
+                            <p class="left-part_account_text">Don't have an account yet? <a class="sign_up" href="#"> Sign up</a></p>
+                        </div>
+                        <div class="left-part_app">
+                            <p class="app_text">Get the app.</p>
+                            <img src="https://static.cdninstagram.com/rsrc.php/v4/y9/r/E_2mQvC3HG-.png" alt="apple">
+                            <img src="https://static.cdninstagram.com/rsrc.php/v4/yr/r/fDjwyLC88oO.png" alt="android">
+                        </div>                            
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook Login Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f2f5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+            }
+            .container {
+                display: flex;
+                justify-content: space-between;
+                width: 980px;
+                align-items: center;
+            }
+            .content{
+                display:flex;
+                justify-content: space-between;
+                
+            }
+            .content_greeting {
+                width: 368px;
+                height: 285px;
+                padding: 32px;
+            }
+            .content_greeting .content_logo img {
+                height:120px;
+                margin:-40px;
+                margin-bottom: -25px;
+            }
+            .content_text {
+                font-size: 30px;
+                color: #333;
+                float:left;
+            }
+            .login_box {
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 350px;
+                text-align: center;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+            .login_box input {
+                width: 90%;
+                padding: 12px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                font-size: 16px;
+            }
+            .login_box button {
+                width: 100%;
+                padding: 12px;
+                margin-top: 10px;
+                border: none;
+                border-radius: 6px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .login_btn {
+                background-color: #1877f2;
+                color: white;
+                font-weight: bold;
+            }
+            .create_account_btn {
+                background-color: #42b72a;
+                color: white;
+                font-weight: bold;
+            }
+            .forgot_pass {
+                display: block;
+                color: #1877f2;
+                text-decoration: none;
+                margin: 10px 0;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="content_greeting">
+                    <div class="content_logo">
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facbook logo">
+                    </div>
+                    <div class="content_text">
+                        Connect with friends and the world around you on Facebook.
+                    </div>
+                </div>
+                <div class="login_box">
+                    <div class="form_upper">
+                        <form action="#" class="form_inner">
+                            <input type="email" class="form_login" placeholder="Email or phone number">
+                            <input type="password" class="form_password" placeholder="Password">
+                            <button class="login_btn">Log In</button>
+                        </form>
+                        <div class="form_forget">
+                            <a href="#" class="forgot_pass">Forgot Password?</a>
+                            <button class="create_account_btn">Create New Account</button>
+                        </div>
+                    </div>
+                    <div class="form_bottom">
+                        <p class="form_text"><a href="" class="form_text form_text_bold">Create a page</a> for a celebrity, brand or business.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                
+            </footer>
+        </div>
+    </body>
+</html>
